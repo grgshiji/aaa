@@ -2,8 +2,8 @@
   "name": "aaa",
   "type": "package",
   "source": {
-    "https": null,
-    "ssh": null,
+    "https": "https://github.com/grgshiji/aaa.git",
+    "ssh": "git@github.com:grgshiji/aaa.git",
     "branch": "block_aaa"
   },
   "dependencies": {
