@@ -1,0 +1,22 @@
+{
+  "type": "function",
+  "source": {
+    "https": "https://github.com/grgshiji/aaa.git",
+    "ssh": "git@github.com:grgshiji/aaa.git",
+    "branch": "block_listTodos"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "npm run build",
+  "postPull": "npm i",
+  "name": "listTodos",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "NE3R_jikWK0vAPyr-I7pG",
+  "isPublic": true,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "8QpHA71yqLnXIA9rg_5uw"
+  ]
+}
