@@ -1,0 +1,22 @@
+{
+  "name": "todoItem",
+  "type": "ui-elements",
+  "source": {
+    "https": "https://github.com/grgshiji/aaa.git",
+    "ssh": "git@github.com:grgshiji/aaa.git",
+    "branch": "block_todoItem"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "zN13Te_OwO-DZPgLYZ6Gr",
+  "isPublic": true,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "8QpHA71yqLnXIA9rg_5uw"
+  ]
+}
